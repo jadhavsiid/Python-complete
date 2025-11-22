@@ -5,12 +5,16 @@
 # If the user guessed it correctly within the 3 given chance print the message- "You Won!!"
 
 number = 8
-chance = 1
-while chance <=3:
-    usersGuess = input("Guess the hidden number: "  )
-    if int(usersGuess) == number:
-        print('You Won!!')
-    else:
-        print("Try Again!!")
-    chance+=1
-print("Game Over, You Are Out Of Your Chances!!")
+chances = 1
+noOfChances = 3
+while chances <= noOfChances:
+    chances+=1
+    print("Guess the hidden number:")
+    hiddenNo = input()
+    if int(hiddenNo) == number:
+        print("You Won !!")
+        break
+else:
+    print("Game Over, You Are Out Of Your Chances!!")
+
+
