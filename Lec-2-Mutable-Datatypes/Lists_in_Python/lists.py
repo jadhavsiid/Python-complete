@@ -53,7 +53,7 @@ print(f"Sorted Numist: {numlist}")
 
 # * max() --> Used to fetch max number from the list
 print(f"Max number in numlist: {max(numlist)}")
-# * sort() --> Used to fetch min number from the list
+# * min() --> Used to fetch min number from the list
 print(f"Max number in numlist: {min(numlist)}")
 
 # * Operator Overloading
