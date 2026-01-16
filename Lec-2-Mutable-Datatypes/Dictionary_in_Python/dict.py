@@ -13,12 +13,11 @@ print(f"Chai Recipe: {chai_recipe}")
 # * Membership testing
 print(f"Is Sugar in the order ? {'sugar' in chai_order}")
 
-
 chai_order = dict(type="Ginger Chai", size = "Medium", sugar = 1)
 
-# print(f"Order details (keys): {chai_order.keys()}")
-# print(f"Order details (values): {chai_order.values()}")
-# print(f"Order details (items): {chai_order.items()}")
+print(f"Order details (keys): {chai_order.keys()}")
+print(f"Order details (values): {chai_order.values()}")
+print(f"Order details (items): {chai_order.items()}")
 
 last_items = chai_order.popitem()
 print(f"Removed last item: {last_items}")
